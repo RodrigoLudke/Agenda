@@ -56,54 +56,10 @@ Agenda/
 
 ---
 
-## 🛠️ Instalação e Execução
-
-1. **Clone o repositório:**
-
-   ```bash
-   git clone https://github.com/RodrigoLudke/Agenda.git
-   cd Agenda
-   ```
-
-2. **Crie e ative um ambiente virtual:**
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # No Windows: venv\Scripts\activate
-   ```
-
-3. **Instale as dependências:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Aplique as migrações:**
-
-   ```bash
-   python manage.py migrate
-   ```
-
-5. **Inicie o servidor de desenvolvimento:**
-
-   ```bash
-   python manage.py runserver
-   ```
-
-6. **Acesse a aplicação:**
-
-   Abra o navegador e vá para [http://localhost:8000](http://localhost:8000)
-
----
-
 ## ✅ Requisitos
 
 - Python 3.8 ou superior
 - pip
-- Ambiente virtual (recomendado)
+- Ambiente virtual
 
 ---
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
